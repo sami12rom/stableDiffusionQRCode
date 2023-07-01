@@ -6,8 +6,9 @@ It was build using the ControlNet models that has been trained on datasets of 15
 
 ## Example
 It takes a normal qr input and outputs the below e.g.
-![alt text](/output/qr_2023-07-01T18-29-05.png)
 ![alt text](/output/qr_2023-07-01T21-18-24.png)
+![alt text](/output/qr_2023-07-01T21-57-21.png)
+![alt text](/output/qr_2023-07-01T18-29-05.png)
 
 
 ## Built With

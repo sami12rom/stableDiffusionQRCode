@@ -40,7 +40,7 @@ try:
                  controlnet_conditioning_scale=1.5,
                  generator=generator,
                  strength=1.3,
-                 num_inference_steps=150,
+                 num_inference_steps=10,
                  )
     
     #print(f"Can the QR code be read: {qr_source == decode_qr(image.images[0])}")
