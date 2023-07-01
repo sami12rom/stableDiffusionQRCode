@@ -1850,6 +1850,21 @@ files = [
 ]
 
 [[package]]
+name = "pyzbar"
+version = "0.1.9"
+description = "Read one-dimensional barcodes and QR codes from Python 2 and 3."
+optional = false
+python-versions = "*"
+files = [
+    {file = "pyzbar-0.1.9-py2.py3-none-any.whl", hash = "sha256:4559628b8192feb25766d954b36a3753baaf5c97c03135aec7e4a026036b475d"},
+    {file = "pyzbar-0.1.9-py2.py3-none-win32.whl", hash = "sha256:8f4c5264c9c7c6b9f20d01efc52a4eba1ded47d9ba857a94130afe33703eb518"},
+    {file = "pyzbar-0.1.9-py2.py3-none-win_amd64.whl", hash = "sha256:13e3ee5a2f3a545204a285f41814d5c0db571967e8d4af8699a03afc55182a9c"},
+]
+
+[package.extras]
+scripts = ["Pillow (>=3.2.0)"]
+
+[[package]]
 name = "pyzmq"
 version = "25.1.0"
 description = "Python bindings for 0MQ"
@@ -1960,6 +1975,16 @@ dev = ["pytest", "pytest-cov", "tox"]
 maintainer = ["zest.releaser[recommended]"]
 pil = ["pillow (>=9.1.0)"]
 test = ["coverage", "pytest"]
+
+[[package]]
+name = "qrtools"
+version = "0.0.2"
+description = "qrtools is a suite of tools for handling QR codes."
+optional = false
+python-versions = "*"
+files = [
+    {file = "qrtools-0.0.2.tar.gz", hash = "sha256:e6f0034ea884b8461ebff4bef2cf546fef4dfeca1e3948ac975f8f14fe45381a"},
+]
 
 [[package]]
 name = "qtconsole"
@@ -2725,4 +2750,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "b9a28eba8ec21d99fcca45ee77b6ef9ff7a0d69a9dc69df7d25d1400434ccc57"
+content-hash = "34f7253b1bbe06349bf4cca35aa23cb675d16abe3f02083b92ef1bda14069a8c"

@@ -7,6 +7,7 @@ It was build using the ControlNet models that has been trained on datasets of 15
 ## Example
 It takes a normal qr input and outputs the below e.g.
 ![alt text](/output/qr_2023-07-01T18-29-05.png)
+![alt text](/output/qr_2023-07-01T21-18-24.png)
 
 
 ## Built With
@@ -15,11 +16,15 @@ It takes a normal qr input and outputs the below e.g.
 ## References
 [HuggingFace](https://huggingface.co/DionTimmer/controlnet_qrcode-control_v11p_sd21)
 
+## Contact
+Sami Alashabi
+https://www.linkedin.com/in/sami-alashabi/
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/sami-alashabi/
 [Python.org]: https://img.shields.io/badge/Python-3776AB?style%25253Dfor-the-badge%252526logo%25253Dpython%252526logoColor%25253Dwhite
-[Python-url]: https://[jquery.com](https://www.python.org/) 
+[Python-url]: https://www.python.org/
 

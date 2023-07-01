@@ -15,6 +15,8 @@ ipykernel = "^6.23.3"
 torchvision = "^0.15.2"
 torch = "^2.0.1"
 qrcode = "^7.4.2"
+qrtools = "^0.0.2"
+pyzbar = "^0.1.9"
 
 
 [tool.poetry.group.test.dependencies]
