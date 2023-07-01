@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "stablediffusionqrcode"
+version = "0.1.0"
+description = ""
+authors = ["Sami Alashabi <sami.alashabi@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+diffusers = "^0.17.1"
+transformers = "^4.30.2"
+accelerate = "^0.20.3"
+ipykernel = "^6.23.3"
+torchvision = "^0.15.2"
+torch = "^2.0.1"
+qrcode = "^7.4.2"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+requests-mock = "^1.11.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+autopep8 = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
